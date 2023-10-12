@@ -1,0 +1,777 @@
+2023-10-12 14:53:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 14:53:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 14:53:33 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 14:53:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 14:53:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 14:53:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 14:53:34 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 14:53:34 INFO  SampleTestScript:49 - Opening browser: chrome
+2023-10-12 14:55:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 14:55:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 14:55:14 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 14:55:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 14:55:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 14:55:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 14:55:15 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 14:55:15 INFO  SampleTestScript:49 - Opening browser: chrome
+2023-10-12 14:55:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 14:55:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 14:55:34 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 14:55:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 14:55:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 14:55:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 14:55:35 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 14:55:35 INFO  SampleTestScript:49 - Opening browser: chrome
+2023-10-12 15:00:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 15:00:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 15:00:19 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 15:00:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 15:00:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 15:00:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 15:00:20 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 15:00:20 INFO  SampleTestScript:49 - Opening browser: chrome
+2023-10-12 15:00:26 INFO  SampleTestScript:49 - Maximizing browser window
+2023-10-12 15:00:26 INFO  SampleTestScript:49 - entering text: Selenium
+2023-10-12 15:00:26 INFO  SampleTestScript:49 - pressing enter key
+2023-10-12 15:00:26 INFO  SampleTestScript:49 - waiting for 2 second
+2023-10-12 15:00:28 INFO  SampleTestScript:49 - verifying page title
+2023-10-12 15:00:28 INFO  VerificationManager:230 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2023-10-12 15:00:29 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2023-10-12 15:50:47 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 15:50:47 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 15:50:47 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 15:50:48 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 15:50:48 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 15:50:48 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 15:50:48 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 15:50:49 INFO  SampleTestScript:49 - Opening browser: chrome
+2023-10-12 15:50:54 INFO  SampleTestScript:49 - Maximizing browser window
+2023-10-12 15:50:54 INFO  SampleTestScript:49 - entering text: Selenium
+2023-10-12 15:50:55 INFO  SampleTestScript:49 - pressing enter key
+2023-10-12 15:50:55 INFO  SampleTestScript:49 - waiting for 2 second
+2023-10-12 15:50:57 INFO  SampleTestScript:49 - verifying page title
+2023-10-12 15:50:57 INFO  VerificationManager:230 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2023-10-12 15:50:57 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2023-10-12 15:52:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 15:52:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 15:52:10 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 15:52:11 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 15:52:11 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 15:52:11 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 15:52:11 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 15:52:12 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 15:52:18 INFO  BasePage:49 - url opened
+2023-10-12 15:52:18 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 15:52:19 INFO  SampleTestScript:49 - Opening browser: chrome
+2023-10-12 15:52:22 INFO  SampleTestScript:49 - Maximizing browser window
+2023-10-12 15:52:22 INFO  SampleTestScript:49 - entering text: Selenium
+2023-10-12 15:52:22 INFO  SampleTestScript:49 - pressing enter key
+2023-10-12 15:52:23 INFO  SampleTestScript:49 - waiting for 2 second
+2023-10-12 15:52:25 INFO  SampleTestScript:49 - verifying page title
+2023-10-12 15:52:25 INFO  VerificationManager:230 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2023-10-12 15:52:26 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 15:53:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 15:53:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 15:53:35 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 15:53:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 15:53:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 15:53:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 15:53:36 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 15:53:36 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 15:53:45 INFO  BasePage:49 - url opened
+2023-10-12 15:53:45 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 15:53:46 INFO  SampleTestScript:49 - Opening browser: chrome
+2023-10-12 15:53:49 INFO  SampleTestScript:49 - Maximizing browser window
+2023-10-12 15:53:49 INFO  SampleTestScript:49 - entering text: Selenium
+2023-10-12 15:53:49 INFO  SampleTestScript:49 - pressing enter key
+2023-10-12 15:53:50 INFO  SampleTestScript:49 - waiting for 2 second
+2023-10-12 15:53:52 INFO  SampleTestScript:49 - verifying page title
+2023-10-12 15:53:52 INFO  VerificationManager:230 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2023-10-12 15:53:53 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 15:54:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 15:54:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 15:54:58 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 15:54:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 15:54:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 15:54:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 15:54:59 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 15:54:59 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 15:55:11 INFO  BasePage:49 - url opened
+2023-10-12 15:55:11 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 15:55:11 INFO  SampleTestScript:49 - Opening browser: chrome
+2023-10-12 15:55:16 INFO  SampleTestScript:49 - Maximizing browser window
+2023-10-12 15:55:16 INFO  SampleTestScript:49 - entering text: Selenium
+2023-10-12 15:55:16 INFO  SampleTestScript:49 - pressing enter key
+2023-10-12 15:55:17 INFO  SampleTestScript:49 - waiting for 2 second
+2023-10-12 15:55:19 INFO  SampleTestScript:49 - verifying page title
+2023-10-12 15:55:19 INFO  VerificationManager:230 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2023-10-12 15:55:20 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 15:59:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 15:59:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 15:59:41 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 15:59:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 15:59:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 15:59:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 15:59:42 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 15:59:42 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 15:59:58 INFO  BasePage:49 - url opened
+2023-10-12 15:59:58 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 15:59:58 INFO  SampleTestScript:49 - Opening browser: chrome
+2023-10-12 16:00:04 INFO  SampleTestScript:49 - Maximizing browser window
+2023-10-12 16:00:04 INFO  SampleTestScript:49 - entering text: Selenium
+2023-10-12 16:00:04 INFO  SampleTestScript:49 - pressing enter key
+2023-10-12 16:00:04 INFO  SampleTestScript:49 - waiting for 2 second
+2023-10-12 16:00:06 INFO  SampleTestScript:49 - verifying page title
+2023-10-12 16:00:06 INFO  VerificationManager:230 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2023-10-12 16:00:07 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 16:01:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 16:01:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 16:01:37 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 16:01:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 16:01:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 16:01:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 16:01:38 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 16:01:38 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 16:01:49 INFO  BasePage:49 - url opened
+2023-10-12 16:01:49 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 16:01:49 INFO  SampleTestScript:49 - Opening browser: chrome
+2023-10-12 16:01:53 INFO  SampleTestScript:49 - Maximizing browser window
+2023-10-12 16:01:53 INFO  SampleTestScript:49 - entering text: Selenium
+2023-10-12 16:01:53 INFO  SampleTestScript:49 - pressing enter key
+2023-10-12 16:01:53 INFO  SampleTestScript:49 - waiting for 2 second
+2023-10-12 16:01:55 INFO  SampleTestScript:49 - verifying page title
+2023-10-12 16:01:55 INFO  VerificationManager:230 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2023-10-12 16:01:56 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 16:02:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 16:02:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 16:02:56 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 16:02:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 16:02:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 16:02:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 16:02:57 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 16:02:57 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 16:03:08 INFO  BasePage:49 - url opened
+2023-10-12 16:03:08 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 16:03:09 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 16:03:16 INFO  DashboardPage:49 - Clicking on PIM Tab
+2023-10-12 16:03:19 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:03:21 INFO  PIMPage:49 - Clicking on Add
+2023-10-12 16:03:22 INFO  PIMPage:49 - Entering Report Name
+2023-10-12 16:03:23 INFO  PIMPage:49 - Selecting Selection Criteria
+2023-10-12 16:03:23 INFO  PIMPage:49 - Selecting Include
+2023-10-12 16:03:23 INFO  PIMPage:49 - Selecting select display field group
+2023-10-12 16:03:23 INFO  PIMPage:49 - Selecting display field
+2023-10-12 16:03:23 INFO  PIMPage:49 - Selecting the category under Selection Criteria 
+2023-10-12 16:03:27 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 16:03:27 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:03:29 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 16:03:32 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 16:03:32 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 16:03:32 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 16:03:32 INFO  PIMPage:49 - Clicking on Edit
+2023-10-12 16:03:33 INFO  PIMPage:49 - Selecting display field group in Edit Page
+2023-10-12 16:03:39 INFO  PIMPage:49 - Selecting the category under display field in Edit Page
+2023-10-12 16:03:39 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 16:03:39 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:03:40 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 16:03:43 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 16:03:43 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 16:03:43 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 16:03:43 INFO  PIMPage:49 - Clicking on Delete
+2023-10-12 16:03:43 INFO  PIMPage:49 - Clicking on Delete Alert
+2023-10-12 16:03:43 INFO  PIMPage:49 - Verify the Text Delete Records
+2023-10-12 16:03:48 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : No Records Found is same as Expected value: No Records Found
+2023-10-12 16:03:48 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2023-10-12 16:06:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 16:06:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 16:06:23 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 16:06:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 16:06:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 16:06:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 16:06:24 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 16:06:24 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 16:06:34 INFO  BasePage:49 - url opened
+2023-10-12 16:06:34 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 16:06:35 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 16:06:41 INFO  DashboardPage:49 - Clicking on PIM Tab
+2023-10-12 16:06:45 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:06:46 INFO  PIMPage:49 - Clicking on Add
+2023-10-12 16:06:48 INFO  PIMPage:49 - Entering Report Name
+2023-10-12 16:06:48 INFO  PIMPage:49 - Selecting Selection Criteria
+2023-10-12 16:06:49 INFO  PIMPage:49 - Selecting Include
+2023-10-12 16:06:49 INFO  PIMPage:49 - Selecting select display field group
+2023-10-12 16:06:49 INFO  PIMPage:49 - Selecting display field
+2023-10-12 16:06:49 INFO  PIMPage:49 - Selecting the category under Selection Criteria 
+2023-10-12 16:06:52 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 16:06:52 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:06:53 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 16:06:56 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 16:06:56 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 16:06:56 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 16:06:56 INFO  PIMPage:49 - Clicking on Edit
+2023-10-12 16:06:57 INFO  PIMPage:49 - Selecting display field group in Edit Page
+2023-10-12 16:07:03 INFO  PIMPage:49 - Selecting the category under display field in Edit Page
+2023-10-12 16:07:03 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 16:07:03 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:07:04 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 16:07:06 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 16:07:06 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 16:07:07 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 16:07:07 INFO  PIMPage:49 - Clicking on Delete
+2023-10-12 16:07:07 INFO  PIMPage:49 - Clicking on Delete Alert
+2023-10-12 16:07:07 INFO  PIMPage:49 - Verify the Text Delete Records
+2023-10-12 16:07:11 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : No Records Found is same as Expected value: No Records Found
+2023-10-12 16:07:11 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2023-10-12 16:07:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 16:07:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 16:07:33 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 16:07:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 16:07:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 16:07:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 16:07:34 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 16:07:34 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 16:07:45 INFO  BasePage:49 - url opened
+2023-10-12 16:07:45 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 16:07:46 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 16:07:52 INFO  DashboardPage:49 - Clicking on PIM Tab
+2023-10-12 16:07:56 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:07:57 INFO  PIMPage:49 - Clicking on Add
+2023-10-12 16:07:58 INFO  PIMPage:49 - Entering Report Name
+2023-10-12 16:07:59 INFO  PIMPage:49 - Selecting Selection Criteria
+2023-10-12 16:07:59 INFO  PIMPage:49 - Selecting Include
+2023-10-12 16:07:59 INFO  PIMPage:49 - Selecting select display field group
+2023-10-12 16:07:59 INFO  PIMPage:49 - Selecting display field
+2023-10-12 16:08:00 INFO  PIMPage:49 - Selecting the category under Selection Criteria 
+2023-10-12 16:08:03 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 16:08:03 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:08:04 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 16:08:07 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 16:08:07 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 16:08:08 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 16:08:08 INFO  PIMPage:49 - Clicking on Edit
+2023-10-12 16:08:08 INFO  PIMPage:49 - Selecting display field group in Edit Page
+2023-10-12 16:08:13 INFO  PIMPage:49 - Selecting the category under display field in Edit Page
+2023-10-12 16:08:14 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 16:08:14 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:08:14 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 16:08:17 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 16:08:17 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 16:08:18 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 16:08:18 INFO  PIMPage:49 - Clicking on Delete
+2023-10-12 16:08:18 INFO  PIMPage:49 - Clicking on Delete Alert
+2023-10-12 16:08:18 INFO  PIMPage:49 - Verify the Text Delete Records
+2023-10-12 16:08:22 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : No Records Found is same as Expected value: No Records Found
+2023-10-12 16:08:22 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2023-10-12 16:37:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 16:37:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 16:37:52 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 16:37:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 16:37:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 16:37:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 16:37:53 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 16:37:53 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 16:38:03 INFO  BasePage:49 - url opened
+2023-10-12 16:38:03 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 16:38:04 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 16:38:12 INFO  DashboardPage:49 - Clicking on PIM Tab
+2023-10-12 16:38:14 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:38:15 INFO  PIMPage:49 - Clicking on Add
+2023-10-12 16:38:16 INFO  PIMPage:49 - Entering Report Name
+2023-10-12 16:38:17 INFO  PIMPage:49 - Selecting Selection Criteria
+2023-10-12 16:38:17 INFO  PIMPage:49 - Selecting Include
+2023-10-12 16:38:17 INFO  PIMPage:49 - Selecting select display field group
+2023-10-12 16:38:17 INFO  PIMPage:49 - Selecting display field
+2023-10-12 16:38:18 INFO  PIMPage:49 - Selecting the category under Selection Criteria 
+2023-10-12 16:38:21 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 16:38:21 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:38:22 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 16:38:26 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 16:38:26 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 16:38:27 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 16:38:27 INFO  PIMPage:49 - Clicking on Edit
+2023-10-12 16:38:28 INFO  PIMPage:49 - Selecting display field group in Edit Page
+2023-10-12 16:38:33 INFO  PIMPage:49 - Selecting the category under display field in Edit Page
+2023-10-12 16:38:33 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 16:38:33 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 16:38:34 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 16:38:37 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 16:38:37 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 16:38:38 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 16:38:38 INFO  PIMPage:49 - Clicking on Delete
+2023-10-12 16:38:38 INFO  PIMPage:49 - Clicking on Delete Alert
+2023-10-12 16:38:38 INFO  PIMPage:49 - Verify the Text Delete Records
+2023-10-12 16:38:41 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : No Records Found is same as Expected value: No Records Found
+2023-10-12 16:38:42 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2023-10-12 16:41:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 16:41:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 16:41:16 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 16:41:17 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 16:41:17 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 16:41:17 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 16:41:17 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 16:41:17 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 16:41:27 INFO  BasePage:49 - url opened
+2023-10-12 16:41:27 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 16:41:28 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 16:41:34 INFO  DashboardPage:49 - Clicking on PIM Tab
+2023-10-12 17:13:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 17:13:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 17:13:54 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 17:13:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 17:13:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 17:13:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 17:13:55 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 17:13:55 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 17:14:06 INFO  BasePage:49 - url opened
+2023-10-12 17:14:06 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 17:14:07 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 17:14:15 INFO  DashboardPage:49 - Clicking on PIM Tab
+2023-10-12 17:14:17 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:14:18 INFO  PIMPage:49 - Clicking on Add
+2023-10-12 17:14:19 INFO  PIMPage:49 - Entering Report Name
+2023-10-12 17:14:20 INFO  PIMPage:49 - Selecting Selection Criteria
+2023-10-12 17:14:20 INFO  PIMPage:49 - Selecting Include
+2023-10-12 17:14:20 INFO  PIMPage:49 - Selecting select display field group
+2023-10-12 17:14:20 INFO  PIMPage:49 - Selecting display field
+2023-10-12 17:14:20 INFO  PIMPage:49 - Selecting the category under Selection Criteria 
+2023-10-12 17:14:23 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 17:14:23 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:14:26 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 17:14:28 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 17:14:28 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 17:14:29 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 17:14:29 INFO  PIMPage:49 - Clicking on Edit
+2023-10-12 17:14:30 INFO  PIMPage:49 - Selecting display field group in Edit Page
+2023-10-12 17:14:35 INFO  PIMPage:49 - Selecting the category under display field in Edit Page
+2023-10-12 17:14:35 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 17:14:35 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:14:36 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 17:14:39 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 17:14:39 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 17:14:39 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 17:14:39 INFO  PIMPage:49 - Clicking on Delete
+2023-10-12 17:14:39 INFO  PIMPage:49 - Clicking on Delete Alert
+2023-10-12 17:14:40 INFO  PIMPage:49 - Verify the Text Delete Records
+2023-10-12 17:14:43 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : No Records Found is same as Expected value: No Records Found
+2023-10-12 17:14:44 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2023-10-12 17:34:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 17:34:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 17:34:54 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 17:34:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 17:34:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 17:34:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 17:34:55 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 17:34:55 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 17:35:09 INFO  BasePage:49 - url opened
+2023-10-12 17:35:09 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 17:35:10 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 17:35:18 INFO  DashboardPage:49 - Clicking on PIM Tab
+2023-10-12 17:35:20 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:35:21 INFO  PIMPage:49 - Clicking on Add
+2023-10-12 17:35:23 INFO  PIMPage:49 - Entering Report Name
+2023-10-12 17:35:23 INFO  PIMPage:49 - Selecting Selection Criteria
+2023-10-12 17:35:24 INFO  PIMPage:49 - Selecting Include
+2023-10-12 17:35:24 INFO  PIMPage:49 - Selecting select display field group
+2023-10-12 17:35:24 INFO  PIMPage:49 - Selecting display field
+2023-10-12 17:35:24 INFO  PIMPage:49 - Selecting the category under Selection Criteria 
+2023-10-12 17:35:27 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 17:35:27 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:35:29 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 17:35:31 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 17:35:31 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 17:35:33 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 17:35:33 INFO  PIMPage:49 - Clicking on Edit
+2023-10-12 17:35:34 INFO  PIMPage:49 - Selecting display field group in Edit Page
+2023-10-12 17:35:39 INFO  PIMPage:49 - Selecting the category under display field in Edit Page
+2023-10-12 17:35:39 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 17:35:39 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:35:40 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 17:35:43 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 17:35:43 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 17:35:44 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 17:35:44 INFO  PIMPage:49 - Clicking on Delete
+2023-10-12 17:35:44 INFO  PIMPage:49 - Clicking on Delete Alert
+2023-10-12 17:35:44 INFO  PIMPage:49 - Verify the Text Delete Records
+2023-10-12 17:35:48 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : No Records Found is same as Expected value: No Records Found
+2023-10-12 17:35:48 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2023-10-12 17:37:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 17:37:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 17:37:32 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 17:37:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 17:37:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 17:37:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 17:37:34 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 17:37:34 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 17:37:47 INFO  BasePage:49 - url opened
+2023-10-12 17:37:47 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 17:37:48 INFO  BasePage:49 - Column Name: Valid UserName
+2023-10-12 17:37:48 INFO  BasePage:49 - Column Name: Valid Password
+2023-10-12 17:37:48 INFO  BasePage:49 - Column Name: Report Name
+2023-10-12 17:37:48 INFO  BasePage:49 - Column Name: Selection Criteria
+2023-10-12 17:37:49 INFO  BasePage:49 - Column Name: Selection Include
+2023-10-12 17:37:49 INFO  BasePage:49 - Column Name: Display Field Group
+2023-10-12 17:37:49 INFO  BasePage:49 - Column Name: Display Field
+2023-10-12 17:37:49 INFO  BasePage:49 - Column Name: Display Field 2
+2023-10-12 17:37:49 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 17:37:55 INFO  DashboardPage:49 - Clicking on PIM Tab
+2023-10-12 17:37:59 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:38:00 INFO  PIMPage:49 - Clicking on Add
+2023-10-12 17:38:02 INFO  PIMPage:49 - Entering Report Name
+2023-10-12 17:38:02 INFO  PIMPage:49 - Selecting Selection Criteria
+2023-10-12 17:38:03 INFO  PIMPage:49 - Selecting Include
+2023-10-12 17:38:03 INFO  PIMPage:49 - Selecting select display field group
+2023-10-12 17:38:03 INFO  PIMPage:49 - Selecting display field
+2023-10-12 17:38:03 INFO  PIMPage:49 - Selecting the category under Selection Criteria 
+2023-10-12 17:38:07 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 17:38:07 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:38:07 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 17:38:10 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 17:38:10 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 17:38:11 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 17:38:11 INFO  PIMPage:49 - Clicking on Edit
+2023-10-12 17:38:12 INFO  PIMPage:49 - Selecting display field group in Edit Page
+2023-10-12 17:38:18 INFO  PIMPage:49 - Selecting the category under display field in Edit Page
+2023-10-12 17:38:18 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 17:38:18 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:38:19 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 17:38:21 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 17:38:22 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 17:38:22 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 17:38:22 INFO  PIMPage:49 - Clicking on Delete
+2023-10-12 17:38:22 INFO  PIMPage:49 - Clicking on Delete Alert
+2023-10-12 17:38:22 INFO  PIMPage:49 - Verify the Text Delete Records
+2023-10-12 17:38:26 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : No Records Found is same as Expected value: No Records Found
+2023-10-12 17:38:26 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2023-10-12 17:40:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-12 17:40:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-12 17:40:13 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-12 17:40:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-12 17:40:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-12 17:40:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-12 17:40:14 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.fuction_calling_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-12 17:40:14 INFO  BasePage:49 - Opening browser: chrome
+2023-10-12 17:40:24 INFO  BasePage:49 - url opened
+2023-10-12 17:40:24 INFO  BasePage:49 - Maximizing browser window
+2023-10-12 17:40:25 INFO  BasePage:49 - Column Name: Valid UserName
+2023-10-12 17:40:25 INFO  BasePage:49 - Column Name: Valid Password
+2023-10-12 17:40:25 INFO  BasePage:49 - Column Name: Report Name
+2023-10-12 17:40:25 INFO  BasePage:49 - Column Name: Selection Criteria
+2023-10-12 17:40:25 INFO  BasePage:49 - Column Name: Selection Include
+2023-10-12 17:40:25 INFO  BasePage:49 - Column Name: Display Field Group
+2023-10-12 17:40:25 INFO  BasePage:49 - Column Name: Display Field
+2023-10-12 17:40:25 INFO  BasePage:49 - Column Name: Display Field 2
+2023-10-12 17:40:25 INFO  DashboardPage:49 - Entering valid credentials
+2023-10-12 17:40:32 INFO  DashboardPage:49 - Clicking on PIM Tab
+2023-10-12 17:40:35 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:40:36 INFO  PIMPage:49 - Clicking on Add
+2023-10-12 17:40:39 INFO  PIMPage:49 - Entering Report Name
+2023-10-12 17:40:39 INFO  PIMPage:49 - Selecting Selection Criteria
+2023-10-12 17:40:40 INFO  PIMPage:49 - Selecting Include
+2023-10-12 17:40:40 INFO  PIMPage:49 - Selecting select display field group
+2023-10-12 17:40:40 INFO  PIMPage:49 - Selecting display field
+2023-10-12 17:40:41 INFO  PIMPage:49 - Selecting the category under Selection Criteria 
+2023-10-12 17:40:44 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 17:40:44 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:40:45 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 17:40:48 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 17:40:48 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 17:40:49 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 17:40:49 INFO  PIMPage:49 - Clicking on Edit
+2023-10-12 17:40:49 INFO  PIMPage:49 - Selecting display field group in Edit Page
+2023-10-12 17:40:55 INFO  PIMPage:49 - Selecting the category under display field in Edit Page
+2023-10-12 17:40:55 INFO  PIMPage:49 - Clicking on Save
+2023-10-12 17:40:56 INFO  PIMPage:49 - Clicking on Reports
+2023-10-12 17:40:56 INFO  PIMPage:49 - Clicking on Report Name Text Field
+2023-10-12 17:40:59 INFO  PIMPage:49 - Clicking on Search
+2023-10-12 17:40:59 INFO  PIMPage:49 - Verify the Text Records
+2023-10-12 17:41:00 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : (1) Record Found is same as Expected value: (1) Record Found
+2023-10-12 17:41:00 INFO  PIMPage:49 - Clicking on Delete
+2023-10-12 17:41:00 INFO  PIMPage:49 - Clicking on Delete Alert
+2023-10-12 17:41:00 INFO  PIMPage:49 - Verify the Text Delete Records
+2023-10-12 17:41:04 INFO  VerificationManager:230 - PASS : Found Message:  Actual value : No Records Found is same as Expected value: No Records Found
+2023-10-12 17:41:05 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
