@@ -28,5 +28,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="/ui_automation_orangehrm"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
