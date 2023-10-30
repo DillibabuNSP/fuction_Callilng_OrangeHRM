@@ -12,6 +12,9 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+/**
+ * This class provides utility methods for reading and manipulating Excel files using Apache POI.
+ */
 public class Xls_Reader {
 	public String path;
 	public FileInputStream fis = null;
@@ -34,7 +37,13 @@ public class Xls_Reader {
 			e.printStackTrace();
 		}
 	}
-	// returns the row count in a sheet
+	 
+	/**
+     * Get the number of rows in a sheet.
+     *
+     * @param sheetName The name of the sheet.
+     * @return The row count.
+     */
 
 	public int getRowCount(String sheetName) {
 		int index = workbook.getSheetIndex(sheetName);
@@ -48,15 +57,15 @@ public class Xls_Reader {
 
 	}
 
-	/**
-	 * Code has been updated as per new POI version - 4.x.x
-	 * 
-	 * @param sheetName
-	 * @param colNum
-	 * @param rowNum
-	 * @return
-	 */
-	// returns the data from a cell
+	 /**
+     * Get data from a cell based on column name and row number.
+     *
+     * @param sheetName The name of the sheet.
+     * @param colName   The column name.
+     * @param rowNum    The row number.
+     * @return The cell data.
+     */
+	
 	public String getCellData(String sheetName, String colName, int rowNum) {
 		try {
 			if (rowNum <= 0)
